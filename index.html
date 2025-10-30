@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arianti | Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Arianti Kartika Dewi</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+          <li><a href="#form">Pesan</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2>Hai, Saya <span>Arianti</span></h2>
+        <p>Mahasiswa Teknik Informatika yang berfokus pada pengembangan web dan desain antarmuka pengguna.</p>
+        <a href="#proyek" class="btn">Lihat Proyek Saya</a>
+      </div>
+      <div class="hero-image">
+      <img src="foto arianti.jpeg" alt="Foto Arianti">
+      </div>
+    </div>
+    <div class="wave"></div>
+  </section>
+
+<!-- ABOUT -->
+<section id="tentang" class="section about">
+  <div class="container">
+    <h2 class="section-title">Tentang Saya</h2>
+    <div class="about-wrapper">
+      <div class="about-photo">
+        <img src="foto arianti.jpeg" alt="Foto Arianti">
+      </div>
+      <div class="about-content">
+        <p>Halo! Saya <strong class="highlight">Arianti Kartika Dewi</strong>, seorang mahasiswa <strong>Teknik Informatika</strong> yang memiliki ketertarikan besar terhadap <em>pengembangan web</em> dan <em>desain antarmuka pengguna</em>. Saya percaya bahwa teknologi bukan hanya tentang kode, tetapi juga tentang menciptakan pengalaman digital yang bermanfaat dan menarik.</p>
+        
+        <p>Selama belajar di bidang informatika, saya aktif mengerjakan berbagai proyek berbasis <strong>HTML, CSS, dan JavaScript</strong> untuk meningkatkan kemampuan dalam <em>front-end development</em>. Saya juga menyukai eksplorasi desain antarmuka yang bersih, minimalis, dan ramah pengguna.</p>
+        
+        <div class="skills-list">
+          <span>💻 HTML5</span>
+          <span>🎨 CSS3</span>
+          <span>📱 Responsive Design</span>
+          <span>🧠 UI/UX Basics</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="proyek" class="section projects">
+  <div class="container">
+    <h2 class="section-title">Proyek Terbaru</h2>
+    <div class="project-grid">
+      
+      <div class="card">
+        <img src="web_td.png" alt="Proyek 1" class="card-img">
+        <div class="card-content">
+          <h3>Website Laboratorium Teknik Digital</h3>
+          <p>Website ini dirancang sebagai platform informasi dan manajemen kegiatan Laboratorium Teknik Digital. Fungsinya adalah untuk membantu mahasiswa dan asisten laboratorium dalam mengakses jadwal praktikum, materi pembelajaran, serta laporan hasil kegiatan dengan lebih mudah.</p>
+          <a href="#" class="btn small">Lihat Proyek</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="web_sman3.png" alt="Proyek 2" class="card-img">
+        <div class="card-content">
+          <h3>Website SMAN 3 Bandar Lampung</h3>
+          <p>Proyek ini adalah pengembangan website profil sekolah (company profile) untuk SMA Negeri 3 Bandar Lampung. Website ini berfungsi sebagai pusat informasi digital utama dan etalase sekolah di dunia maya.</p>
+          <a href="#" class="btn small">Kunjungi</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="web_sebesi.png" alt="Proyek 3" class="card-img">
+        <div class="card-content">
+          <h3>Website Desa Pulau Sebesi</h3>
+          <p>Proyek ini adalah SIPDeskel (Sistem Informasi Pulau Sebesi), sebuah portal website yang berfungsi sebagai pusat informasi dan promosi digital untuk Desa Tejang, Pulau Sebesi, Lampung Selatan.</p>
+          <a href="#" class="btn small">Kunjungi</a>
+        </div>
+      </div>
+
+    </div> 
+  </div>
+</section>
+
+  <!-- FORM -->
+  <section id="form" class="section form-section">
+    <div class="container">
+      <h2 class="section-title">Kirim Pesan</h2>
+      <form class="form-container" action="#" method="POST">
+        <label for="nama">Nama Lengkap <span class="required">*</span></label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="email">Email <span class="required">*</span></label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="kota">Kota Asal</label>
+        <select id="kota" name="kota">
+          <option value="">Pilih Kota</option>
+          <option value="Bandar Lampung">Bandar Lampung</option>
+          <option value="Jakarta">Jakarta</option>
+          <option value="Bandung">Bandung</option>
+          <option value="Surabaya">Surabaya</option>
+        </select>
+
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan Anda..."></textarea>
+
+        <button type="submit" class="btn">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Arianti Kartika Dewi. Dibuat dengan HTML & CSS murni.</p>
+  </footer>
+</body>
+</html>
